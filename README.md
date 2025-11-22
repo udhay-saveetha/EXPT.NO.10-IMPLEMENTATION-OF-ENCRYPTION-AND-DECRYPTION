@@ -1,19 +1,22 @@
 # EXPT.NO.10-IMPLEMENTATION-OF-ENCRYPTION-AND-DECRYPTION
-# AIM:
+
+## AIM:
 To implement encryption and decryption using C program.
 
-# EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+PC with Linux operating system.
 
-PC with Linux operating system
+## PROCEDURE:
+1. Open code blocks and type the program for encryption and decryption. 
+2. Save the program using extension .c
+3.	Run the program using build and run.
+4.	Prime number is given as input. If it is not a prime number then wrong input is displayed.
+5. Then a message is entered.
+6. The encrypted form of the message is displayed.
+7.	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 
-# PROCEDURE:
-1] Open code blocks and type the program for encryption and decryption. 2] Save the program using extension .c
-3]	Run the program using build and run.
-4]	Prime number is given as input. If it is not a prime number then wrong input is displayed. 5] Then a message is entered.
-6]	The encrypted form of the message is displayed.
-7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
-
-# PROGRAM:
+## PROGRAM:
+```
 #include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
@@ -102,15 +105,10 @@ for(i=0;m[i]!=-1; i++
 )
 printf("%c",m[i]);
 }
+```
 
+## OUTPUT:
+![CN4](https://github.com/user-attachments/assets/c9468718-f63d-426b-8e5c-0247543ae897)
 
-
-
-
-# OUTPUT:
-
- 
-
-
-# RESULT:
+## RESULT:
 Thus the encryption and decryption is implemented and the output is obtained and verified successfully.
